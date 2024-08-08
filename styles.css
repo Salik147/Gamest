@@ -1,0 +1,844 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Featured content styling */
+.featured-content {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    background-color:#000000;
+}
+
+.card-img-top {
+    border-radius: 5px;
+}
+
+/* Tabs styling */
+.nav-tabs .nav-link {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #fff;
+    color: #000000;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Theme toggle slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .2s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .1s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .sidebar {
+    background-color: #1f1f1f;
+}
+
+/* Carousel settings */
+.carousel-inner img {
+    height: 500px; /* Adjust as needed */
+}
+
+/* Footer button styling */
+#footerMenuToggle {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#footerMenu {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 60px; /* Adjust as needed */
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+}
+
+/* Theme toggle slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded slider */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* Footer menu container styling */
+.footer-menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Footer menu button styling */
+#footerMenuToggle {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* Footer menu styling */
+#footerMenu {
+    display: none;
+    position: absolute;
+    bottom: 100%; /* Positioned above the button */
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    z-index: 2;
+}
+
+/* Theme toggle slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded slider */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* Footer menu container styling */
+.footer-menu-container {
+    position: relative;
+    display: inline-block;
+    float: right; /* Align to the right */
+    margin-top: -70px; /* Adjust this value to move the button up */
+}
+
+/* Footer menu button styling */
+#footerMenuToggle {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* Footer menu styling */
+#footerMenu {
+    display: none;
+    position: absolute;
+    bottom: 100%; /* Positioned above the button */
+    right: 0;
+    background-color: transparent;
+    padding: 10px;
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    width: max-content; /* Adjust width to fit content */
+    z-index: 2;
+}
+
+/* Theme toggle slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded slider */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: auto; /* Adjust carousel image height for smaller screens */
+    }}
+
+
+    
+    /* Carousel container */
+#carouselExample2 {
+    max-width: 100%; /* Ensure it doesn't exceed the width of its container */
+    height: 100px;   /* Adjust the height as needed */
+    overflow: hidden; /* Hide overflow if needed */
+}
+
+/* Carousel images */
+#carouselExample2 .carousel-item img {
+    width: 100%;    /* Ensure the image covers the width of the carousel */
+    height: 100%;   /* Ensure the image covers the height of the carousel */
+    object-fit: cover; /* Ensure the image fits well without distortion */
+}
+
+/* Optional: Adjust carousel controls size */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;   /* Adjust size of the control icons */
+    height: 30px;  /* Adjust size of the control icons */
+    background-size: 100%, 100%; /* Ensure the background images are scaled correctly */
+}
+
+
+/* Social media icons styling */
+.social-media-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media-icons a:hover {
+    color: #ddd;
+}
+
+
+
+/* Custom styling for card row PS3 PS2 PS1*/
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Ensure each card takes up 20% width on large screens */
+.card-row .col-lg-2 {
+    flex: 0 0 20%; /* 100% / 5 = 20% */
+    max-width: 20%;
+}
+
+/* Optional: Adjust card image size */
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+
+.card-img-top {
+    height: 200px; /* Adjust based on your card height */
+    width: 100%; /* Ensure the image covers the card width */
+    object-fit: cover; /* Ensures the image covers the card without distortion */
+}
+
+
+.card {
+    width: 100%;
+    max-width: 100%; /* Prevent overflow */
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure full height */
+    max-height: 400px; /* Adjust based on your design */
+    background-color: transparent; /* Card background */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Cover the area while preserving aspect ratio */
+}
+
+.card-body {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+    }
+}
+
+/*home Card settings */
+.cardh {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cardh:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cardh-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Button settings */
+.view-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+}
+
+ .card {
+            width: 100%;
+            max-width: 100%; /* Prevent overflow */
+            border: none;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Ensure full height */
+            max-height: 400px; /* Fixed height for card */
+            background-color: #fff; /* Card background */
+        }
+
+        .card-img-top {
+            width: 100%; /* Full width of card */
+            height: 200px; /* Fixed height for image */
+            object-fit: cover; /* Cover the area while preserving aspect ratio */
+        }
+
+        .card-body {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Ensure spacing between text and button */
+            height: calc(100% - 200px); /* Adjust height based on image height */
+            overflow: hidden; /* Hide overflow content */
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-bottom: auto; /* Pushes the button to the bottom */
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+            align-self: center; /* Center button horizontally */
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .card-img-top {
+                height: 150px; /* Adjust height for smaller screens */
+            }
+
+            .card-body {
+                height: calc(100% - 150px); /* Adjust height based on image height */
+            }
+
+            .card-title {
+                font-size: 1rem;
+            }
+
+            .card-text {
+                font-size: 0.875rem;
+            }
+        }
+
+
+        /*Download and txt adjustments*/
+        .card {
+            width: 100%;
+            max-width: 100%; /* Prevent overflow */
+            border: none;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Ensure full height */
+            max-height: 400px; /* Fixed height for card */
+            background-color: transparent; /* Card background */
+        }
+
+        .card-img-top {
+            width: 100%; /* Full width of card */
+            height: 200px; /* Fixed height for image */
+            object-fit: cover; /* Cover the area while preserving aspect ratio */
+        }
+
+        .card-body {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Ensure spacing between text and button */
+            height: calc(100% - 200px); /* Adjust height based on image height */
+            overflow: hidden; /* Hide overflow content */
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-bottom: auto; /* Pushes the button to the bottom */
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+            align-self: center; /* Center button horizontally */
+        }
+
+        @media (max-width: 768px) {
+            .card-img-top {
+                height: 150px; /* Adjust height for smaller screens */
+            }
+
+            .card-body {
+                height: calc(100% - 150px); /* Adjust height based on image height */
+            }
+
+            .card-title {
+                font-size: 1rem;
+            }
+
+            .card-text {
+                font-size: 0.875rem;
+            }
+        }
+
+        /* Responsive Design */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 300px; /* Maintain consistent height for smaller screens */
+    }
+
+    .card-body {
+        height: calc(500% - 200px); /* Adjust height based on image height */
+    }
+}
+
+/* Styling for the paragraph within the card */
+.card-text1 {
+    font-size: 0.875rem; /* Adjust font size as needed */
+    color: #f3f709; /* Text color for better readability */
+    margin-bottom: 1rem; /* Space below the paragraph */
+    line-height: 1.5; /* Line height for readability */
+}
+
+.card-text1 a {
+    color: #007bff; /* Link color to match the theme */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.card-text1 a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+/*Featured adjustments*/
+.Featured_card {
+    width: 100%;
+    max-width: 100%; /* Prevent overflow */
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure full height */
+    max-height: 400px; /* Fixed height for card */
+    background-color: transparent; /* Card background */
+}
+
+.Featured_card-img-top {
+    width: 100%; /* Full width of card */
+    height: r00px; /* Fixed height for image */
+    object-fit: cover; /* Cover the area while preserving aspect ratio */
+}
+
+.Featured_card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure spacing between text and button */
+    height: calc(100% - 200px); /* Adjust height based on image height */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.Featured_card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.Featured_card_text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: auto; /* Pushes the button to the bottom */
+}
+
+.Featured_btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    align-self: center; /* Center button horizontally */
+}
+
+@media (max-width: 768px) {
+    .Featured_card-img-top {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+
+    .Featured_card-body {
+        height: calc(100% - 150px); /* Adjust height based on image height */
+    }
+
+    .Featured_card-title {
+        font-size: 1rem;
+    }
+
+    .Featured_card-text {
+        font-size: 0.875rem;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+.Featured_card-img-top {
+height: 300px; /* Maintain consistent height for smaller screens */
+}
+
+.Featured_card-body {
+height: calc(100% - 200px); /* Adjust height based on image height */
+}
+}
+
+
+/* Modal settings */
+.modal-lg {
+    max-width: 100%;
+    margin: 1.75rem auto;
+}
+
+.modal-content {
+    width: 100%;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Light mode and dark mode styling */
+.modal-content {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode .modal-content {
+    background-color: #333333;
+    color: #e0e0e0;
+}
+
+.modal-header, .modal-footer {
+    border-bottom: 1px solid #ddd;
+}
+
+.dark-mode .modal-header, .dark-mode .modal-footer {
+    border-bottom: 1px solid #555;
+}
+
+.footer-links {
+    position: absolute;
+    left: 20px; /* Position from the left */
+    bottom: 50px; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+    margin-top: 100;
+}
+
+.footer-link {
+    color: #6c757d; /* Grey text color */
+    text-decoration: none;
+}
